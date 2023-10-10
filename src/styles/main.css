@@ -1,3 +1,4 @@
-body {
-  background-color: aqua !important;
+.navbar-container {
+  max-width: 100%;
+  width: 1132px !important;
 }

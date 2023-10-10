@@ -1,5 +1,11 @@
 import "./styles/main.css";
+import "bootstrap/dist/css/bootstrap.css";
 
+import headerWrapper from "./components/HeaderWrapper/wrapper";
+
+const root = document.getElementById("root");
 window.addEventListener("DOMContentLoaded", () => {
-  document.querySelector("#root").innerHTML = "Hello";
+  const domElements = [headerWrapper()];
+
+  root.append(...domElements);
 });
