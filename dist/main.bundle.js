@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.navbar-container {\n  max-width: 100%;\n  width: 1132px !important; }\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://loanica/./src/styles/main.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.navbar-container {\n  max-width: 100%;\n  width: 1132px !important; }\n\n.menu-navbar-nav .nav-item {\n  margin-right: 15px;\n  margin-left: 15px; }\n\n.menu-navbar-nav .nav-item .nav-link {\n  font-size: 16px;\n  color: #322153;\n  line-height: 1;\n  font-weight: 500;\n  text-transform: capitalize !important; }\n\n.contact {\n  background-color: #322153 !important;\n  font-size: 16px;\n  font-family: \"Roboto\", sans-serif;\n  font-weight: 600;\n  color: #fff !important;\n  padding: 8px 40px !important;\n  border-radius: 100px;\n  width: max-content;\n  text-align: center;\n  letter-spacing: 1px; }\n\n.nav-link [class^=\"fa\"] {\n  color: #84bd5a;\n  margin-right: 2px;\n  font-size: 13px; }\n\n.navbar-toggler {\n  display: none;\n  color: #84bd5a !important;\n  position: relative; }\n\n@media screen and (max-width: 992px) {\n  .navbar-expand-lg .navbar-toggler {\n    display: block !important; } }\n\n@media (min-width: 992px) {\n  .navbar-expand-lg .navbar-toggler {\n    display: none !important; } }\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://loanica/./src/styles/main.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -140,6 +140,26 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/components/HeaderWrapper/Header/headerComponents/header_contact.js":
+/*!********************************************************************************!*\
+  !*** ./src/components/HeaderWrapper/Header/headerComponents/header_contact.js ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction headerContact() {\n  const ul = document.createElement(\"ul\");\n  const li = document.createElement(\"li\");\n  const link = document.createElement(\"a\");\n  link.innerHTML = \"Contact\";\n  link.classList.add(\"nav-link\", \"contact\");\n  li.append(link);\n  li.classList.add(\"nav-item\");\n  ul.append(li);\n  ul.classList.add(\"navbar-nav\");\n\n  return ul;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerContact);\n\n\n//# sourceURL=webpack://loanica/./src/components/HeaderWrapper/Header/headerComponents/header_contact.js?");
+
+/***/ }),
+
+/***/ "./src/components/HeaderWrapper/Header/headerComponents/header_lists.js":
+/*!******************************************************************************!*\
+  !*** ./src/components/HeaderWrapper/Header/headerComponents/header_lists.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _data_navigations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../data/navigations */ \"./src/data/navigations.js\");\n\nfunction headerList() {\n  const ulClasses = [\"navbar-nav\", \"menu-navbar-nav\"];\n\n  const ul = document.createElement(\"ul\");\n\n  const liElements = _data_navigations__WEBPACK_IMPORTED_MODULE_0__.elem.map((element) => {\n    const font = document.createElement(\"i\");\n    const navigationLi = document.createElement(\"li\");\n    const navigationA = document.createElement(\"a\");\n    navigationA.classList.add(\"nav-link\");\n    font.classList.add(...element.icons);\n    navigationA.append(font);\n    navigationA.append(element.title);\n    navigationA.href = element.href;\n\n    navigationLi.classList.add(\"nav-item\");\n    navigationLi.append(navigationA);\n\n    return navigationLi;\n  });\n\n  ul.append(...liElements);\n  ul.classList.add(...ulClasses);\n  return ul;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerList);\n\n\n//# sourceURL=webpack://loanica/./src/components/HeaderWrapper/Header/headerComponents/header_lists.js?");
+
+/***/ }),
+
 /***/ "./src/components/HeaderWrapper/Header/headerComponents/header_logo.js":
 /*!*****************************************************************************!*\
   !*** ./src/components/HeaderWrapper/Header/headerComponents/header_logo.js ***!
@@ -150,13 +170,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/HeaderWrapper/Header/headerComponents/header_nav.js":
+/*!****************************************************************************!*\
+  !*** ./src/components/HeaderWrapper/Header/headerComponents/header_nav.js ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _header_lists__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header_lists */ \"./src/components/HeaderWrapper/Header/headerComponents/header_lists.js\");\n/* harmony import */ var _header_contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header_contact */ \"./src/components/HeaderWrapper/Header/headerComponents/header_contact.js\");\n/* harmony import */ var _data_navigations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../data/navigations */ \"./src/data/navigations.js\");\n\n\n\n\nfunction headerNav() {\n  const navClasses = [\"collapse\", \"navbar-collapse\", \"justify-content-around\"];\n\n  const collapseElements = [(0,_header_lists__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(), (0,_header_contact__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()];\n\n  _data_navigations__WEBPACK_IMPORTED_MODULE_2__.collapse.append(...collapseElements);\n\n  _data_navigations__WEBPACK_IMPORTED_MODULE_2__.collapse.setAttribute(\"id\", \"navbarNav\");\n  _data_navigations__WEBPACK_IMPORTED_MODULE_2__.collapse.classList.add(...navClasses);\n\n  return _data_navigations__WEBPACK_IMPORTED_MODULE_2__.collapse;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerNav);\n\n\n//# sourceURL=webpack://loanica/./src/components/HeaderWrapper/Header/headerComponents/header_nav.js?");
+
+/***/ }),
+
 /***/ "./src/components/HeaderWrapper/Header/headerComponents/header_navbar.js":
 /*!*******************************************************************************!*\
   !*** ./src/components/HeaderWrapper/Header/headerComponents/header_navbar.js ***!
   \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _layouts_containers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../layouts/containers */ \"./src/components/layouts/containers.js\");\n/* harmony import */ var _header_logo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header_logo */ \"./src/components/HeaderWrapper/Header/headerComponents/header_logo.js\");\n\n\n\nfunction headerNavbar() {\n  const navbarClasses = [\"navbar\", \"navbar-expand-lg\"];\n  const nav = document.createElement(\"nav\");\n  const container = (0,_layouts_containers__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n  container.classList.add(\"navbar-container\");\n\n  container.append((0,_header_logo__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\n  nav.classList.add(...navbarClasses);\n\n  nav.append(container);\n  return nav;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerNavbar);\n\n\n//# sourceURL=webpack://loanica/./src/components/HeaderWrapper/Header/headerComponents/header_navbar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _layouts_containers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../layouts/containers */ \"./src/components/layouts/containers.js\");\n/* harmony import */ var _header_logo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header_logo */ \"./src/components/HeaderWrapper/Header/headerComponents/header_logo.js\");\n/* harmony import */ var _header_nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header_nav */ \"./src/components/HeaderWrapper/Header/headerComponents/header_nav.js\");\n/* harmony import */ var _layouts_closeOpen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layouts/closeOpen */ \"./src/components/layouts/closeOpen.js\");\n\n\n\n\n\nfunction headerNavbar() {\n  const navbarClasses = [\"navbar\", \"navbar-expand-lg\"];\n  const nav = document.createElement(\"nav\");\n  const container = (0,_layouts_containers__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n  container.classList.add(\"navbar-container\");\n\n  const headerElements = [(0,_header_logo__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(), (0,_layouts_closeOpen__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(), (0,_header_nav__WEBPACK_IMPORTED_MODULE_2__[\"default\"])()];\n\n  container.append(...headerElements);\n\n  nav.classList.add(...navbarClasses);\n\n  nav.append(container);\n  return nav;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerNavbar);\n\n\n//# sourceURL=webpack://loanica/./src/components/HeaderWrapper/Header/headerComponents/header_navbar.js?");
 
 /***/ }),
 
@@ -190,6 +220,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/layouts/closeOpen.js":
+/*!*********************************************!*\
+  !*** ./src/components/layouts/closeOpen.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _data_navigations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../data/navigations */ \"./src/data/navigations.js\");\n\n\nfunction button() {\n  // Создаем элемент <button>\n  const button = document.createElement(\"button\");\n\n  button.classList.add(\"navbar-toggler\", \"collapsed\");\n\n  button.setAttribute(\"type\", \"button\");\n  button.setAttribute(\"data-toggle\", \"collapse\");\n  button.setAttribute(\"data-target\", \"#navbarNav\");\n  button.setAttribute(\"aria-controls\", \"#navbarNav\");\n  button.setAttribute(\"aria-expanded\", \"true\");\n  button.setAttribute(\"aria-label\", \"Toggle navigation\");\n\n  const icon = document.createElement(\"i\");\n  icon.classList.add(\"fa-solid\", \"fa-bars\");\n\n  button.appendChild(icon);\n\n  button.addEventListener(\"click\", () => {\n    _data_navigations__WEBPACK_IMPORTED_MODULE_0__.collapse.classList.toggle(\"show\");\n  });\n\n  return button;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (button);\n\n\n//# sourceURL=webpack://loanica/./src/components/layouts/closeOpen.js?");
+
+/***/ }),
+
 /***/ "./src/components/layouts/containers.js":
 /*!**********************************************!*\
   !*** ./src/components/layouts/containers.js ***!
@@ -197,6 +237,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst container = () => {\n  const container = document.createElement(\"div\");\n\n  container.classList.add(\"container\");\n\n  return container;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (container);\n\n\n//# sourceURL=webpack://loanica/./src/components/layouts/containers.js?");
+
+/***/ }),
+
+/***/ "./src/data/navigations.js":
+/*!*********************************!*\
+  !*** ./src/data/navigations.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   collapse: () => (/* binding */ collapse),\n/* harmony export */   elem: () => (/* binding */ elem)\n/* harmony export */ });\nconst elem = [\n  { title: \"home\", href: \"#top\", icons: [\"fa-solid\", \"fa-house\"] },\n  { title: \"calculator\", href: \"#top\", icons: [\"fa-solid\", \"fa-calculator\"] },\n  { title: \"services\", href: \"#top\", icons: [\"fa-solid\", \"fa-dollar-sign\"] },\n  { title: \"blog\", href: \"#top\", icons: [\"fa-solid\", \"fa-blog\"] },\n  { title: \"reviews\", href: \"#top\", icons: [\"fa-brands\", \"fa-twitch\"] },\n];\n\nconst collapse = document.createElement(\"div\");\n\n\n//# sourceURL=webpack://loanica/./src/data/navigations.js?");
 
 /***/ }),
 
@@ -495,7 +545,7 @@ eval("module.exports = __webpack_require__.p + \"4161ef2291f61a3ec682.png\";\n\n
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3fc4142ccc6a44fb8964")
+/******/ 		__webpack_require__.h = () => ("92a0769f91f1972833ea")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
