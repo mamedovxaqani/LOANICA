@@ -29,6 +29,20 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
       },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "raw-loader",
+          },
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+            },
+          },
+        ],
+      },
     ],
   },
 

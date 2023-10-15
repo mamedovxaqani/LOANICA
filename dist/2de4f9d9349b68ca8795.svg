@@ -1,0 +1,1 @@
+export default "export default __webpack_public_path__ + \"banner.svg\";";

@@ -7,3 +7,11 @@ export const elem = [
 ];
 
 export const collapse = document.createElement("div");
+
+export const panelTextObject = {
+  subtitle: "Loan EMI Calculator",
+  title: "A personal loan for multiple purposes!",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis vestibulum ante, id gravida sem. Nam dictum ornare dictum. Sed congue accumsan arcu quis consectetur.",
+  btnText: "Learn More",
+};

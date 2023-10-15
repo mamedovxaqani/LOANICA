@@ -16,7 +16,8 @@
   text-transform: capitalize !important;
 }
 
-.contact {
+.contact,
+.learn-btn {
   background-color: #322153 !important;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -51,4 +52,49 @@
   .navbar-expand-lg .navbar-toggler {
     display: none !important;
   }
+}
+
+/* panel */
+
+.panel {
+  border: 1px solid;
+  height: 500px;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.panel-container {
+  border: 1px solid !important;
+  max-width: 100%;
+  width: 1132px !important;
+}
+
+.image {
+  background-image: url("../assets/img/banner.svg") !important;
+  background-repeat: no-repeat;
+}
+
+.panel_subtitle {
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  max-width: max-content;
+  background-color: #84bd5a;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+
+.panel_title {
+  font-weight: 600;
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: #322153;
+}
+
+.panel_description {
+  color: #777777;
+  font-size: 17px;
+  padding-bottom: 20px;
 }
